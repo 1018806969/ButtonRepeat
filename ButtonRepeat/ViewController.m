@@ -27,7 +27,6 @@
 -(void)click:(UIButton *)btn
 {
     NSLog(@"click");
-    btn.ignoreEvent = YES ;
 }
 
 - (void)didReceiveMemoryWarning {

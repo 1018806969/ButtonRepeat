@@ -60,7 +60,6 @@ static const char *UIControl_ignoreEvent         = "UIControl_ignoreEvent";
 -(void)setAcceptEventInterval:(NSTimeInterval)acceptEventInterval
 {
     objc_setAssociatedObject(self, UIControl_acceptEventInterval, @(acceptEventInterval), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    NSLog(@"self.interval= %f",acceptEventInterval);
 }
 
 -(BOOL)ignoreEvent
